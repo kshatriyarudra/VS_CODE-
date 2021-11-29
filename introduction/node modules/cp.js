@@ -1,0 +1,6 @@
+const cp=require('child_process')
+//cp.execSync('start chrome')
+//cp.execSync('calc')
+//cp.execSync('start chrome https://www.linkedin.com/mynetwork/')
+let a=cp.execSync('node test.js')
+console.log("From "+a)

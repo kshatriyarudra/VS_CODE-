@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        /*css selector*/
+        /*element selector*/
+        h1 {
+            color: red;
+        }
+
+        /*descendent selector*/
+        /*li {
+            It will colored all which belongs to li as yellow
+            color: yellow;
+        }*/
+
+        /*it will pink only div>ol>li elements or we write as div li it will do same */
+        div ol li {
+            color: pink;
+        }
+
+        /*class selector*/
+        .Class1 {
+            color: maroon;
+        }
+
+        /*multiple class on same element*/
+        .m1.m2 {
+            color: yellowgreen;
+        }
+
+        /*selector for id*/
+        #Yes {
+            color: green;
+        }
+
+        /*attribute selector*/
+        input[value="Yes"]{
+            color: indigo;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Rudra, you looks in mood</h1>
+    <h2>Rudra, you looks in mood</h2>
+    <h3>Rudra, you looks in mood</h3>
+    <h1>Rudra, you looks in mood</h1>
+    <p>Rudra, you looks not in mood</p>
+    <p>Rudra, you looks not in mood</p>
+    <p>Rudra, you looks not in mood</p>
+
+    <ol>
+        <li>I</li>
+        <li>am</li>
+        <li>Rudra</li>
+    </ol>
+
+    <div>
+        <ol>
+            <li>Please</li>
+            <li>Hug</li>
+        </ol>
+    </div>
+
+    <p class="Class1">Hug me please</p>
+    <p class="Class2">Why not!</p>
+
+    <div class="m1 m2">
+        Please go away!
+    </div>
+
+    <p class="m1">No</p>
+    <p class="m2">Yes</p>
+
+    <p class="s" id="Yes">Bye!</p>
+
+    <form>
+        <input type="button" value="Yes">
+        <input type="button" value="No">
+    </form>
+
+</body>
+</html>

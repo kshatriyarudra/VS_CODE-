@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <!-- this below two lines is for connecting the css file to this index.html -->
+        <title>My first front-end</title>
+        <link rel="stylesheet" href="example.css"/>
+    </head>
+    <body>
+        <button id="myfirstbutton">My first button</button>
+        <div id="container">
+        </div>
+        <!-- below template is used to make the copy of prompt data -->
+        <template id="mytemplates">
+            <div class="folder">
+                <!-- using span we are going to take an action -->
+                <span action="edit">edit</span>
+                <span action="delete">delete</span>
+                <!-- this below div is for storing and appending the upcoming prompt data -->
+                <div purpose="name"></div>
+            </div>
+        </template>
+        <!-- below line is also for connecting the javascript file(code) to this index.html-->
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

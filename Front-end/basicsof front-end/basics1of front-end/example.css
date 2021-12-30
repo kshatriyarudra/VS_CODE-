@@ -1,0 +1,39 @@
+/* this is for adding and designing the function of button(id) in various manner */
+#myfirstbutton {
+    border-radius: 5px;
+    background-color: green;
+    width: 100;
+    margin-left: 600px;
+    padding: 15px;
+    cursor: pointer;
+}
+/* this is for adding and designing the function of container(id) in various manner */
+#container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    background-color: aquamarine;
+}
+/* this is for adding and designing the function of container(class) in various manner */
+.folder {
+    border:1px solid blue;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: aqua;
+}
+/* this is for action in folder */
+.folder [action]{
+    text-decoration:underline;
+    cursor: pointer;
+}
+/* this will for when you type name from the prompt then several functions are available to design it */
+div [purpose="name"]{
+    margin-top: 25px;
+    color: red;
+}
+/* this will show magic as zoom when curser over the button by parameter in scale */
+#myfirstbutton:hover {
+    transform: scale(1.05);
+}

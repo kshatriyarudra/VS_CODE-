@@ -1,5 +1,5 @@
 /* this is for adding and designing the function of button(id) in various manner */
-#myfirstbutton {
+#btnAddFolder {
     border-radius: 5px;
     background-color: green;
     width: 100;
@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 /* this is for adding and designing the function of container(id) in various manner */
-#container {
+#divContainer {
     border: 1px solid black;
     padding: 10px;
     margin-top: 5px;
@@ -34,6 +34,6 @@ div [purpose="name"]{
     color: red;
 }
 /* this will show magic as zoom when curser over the button by parameter in scale */
-#myfirstbutton:hover {
+#btnAddFolder:hover {
     transform: scale(1.05);
 }

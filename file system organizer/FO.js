@@ -1,11 +1,3 @@
-//First activity with node js
-
-//I am going to start project as File System Organizer
-//Output of this project is to handling the folder i.e 
-//If we have lot of files in a particular folder then it will arrange 
-//the files in thier extensions category such that image will arrange in Document(jpg),
-//mp4,mp3 file will be in media and so on.
-
 //I am going to use in built module like as file system(fs) and path module.
 
 //node js treats command line input as array and that array is our required array.
